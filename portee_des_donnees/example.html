@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-< html >
+<html>
 
-< head >
-< title >Titres clignotants</ title >
-</ head >
+<head>
+<title>Titres clignotants</title>
+</head>
 
-< body >
-< h1 id = "var" style = "color:black;" >Ada Tech School Forever</ h1 >
-< h1 id = "let" style = "color:black;" >Genre vraiment Forever</ h1 >
-< button id = "btn" onclick = "colour()" >Animer</ button >
+<body>
+<h1 id = "var" style = "color:black;">Ada Tech School Forever</h1>
+<h1 id = "let" style = "color:black;">Genre vraiment Forever</h1>
+<button id = "btn" onclick = "colour()">Animer</button>
 
-< script type = "text/javascript" >
+<script type = "text/javascript">
   function colour() {
     setInterval(function() {
       if (document.getElementById('ligne1').style.color == 'black')
@@ -26,7 +26,7 @@
       document.getElementById('ligne2').style.color = col2;
     }, 500);
   }
-</ script >
+</script>
 
-</ body >
-</ html >
+</body>
+</html>
