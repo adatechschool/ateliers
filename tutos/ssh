@@ -1,0 +1,21 @@
+Le protocole SSH va nous servir aujourd'hui à nous connecter à distance à un serveur sur lequel nous allons faire des tests MySQL.
+
+Pour ce faire, nous avons installé sur cette machine distante un serveur SSH : pour nous y connecter, il faut donc utiliser un client SSH.
+
+- Sous Linux : 
+
+Lancez votre terminal et taper "ssh -V" pour savoir si le client Open SSH est déjà installé chez vous. Si cette commande vous renvoie un numéro de version, c'est bien le cas. Autrement, tapez la commande suivante sur votre terminal : 
+  
+  sudo apt install openssh-client
+  
+ Vous pouvez désormais vous connecter en tapant ssh nomdutilisateur@adressedelamachine -p NUMERODUPORT
+ 
+ - Sous Windows 
+ 
+ Le client SSH que nous allons utiliser sous Windows se nomme Putty, il est téléchargeable à l'adresse https://www.putty.org/
+ Il s'agit d'un utilitaire à télécharger que vous pourrez ensuite lancer à votre convenance sans besoin de l'installer. 
+ Au lancement, la fenêtre suivante vous permettra de spécifier l'adresse du serveur ainsi que le port que vous souhaitez utiliser : https://fr.wikipedia.org/wiki/PuTTY#/media/Fichier:PuTTY_0.62_on_Windows_8.png
+ 
+ - Sous Mac OS : 
+ 
+ Mac OS embarque nativement un client SSH, il suffit de lancer le terminal et utiliser la commande  ssh nomdutilisateur@adressedelamachine -p NUMERODUPORT
