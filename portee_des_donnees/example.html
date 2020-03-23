@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+< html >
+
+< head >
+< title >Titres clignotants</ title >
+</ head >
+
+< body >
+< h1 id = "var" style = "color:black;" >Ada Tech School Forever</ h1 >
+< h1 id = "let" style = "color:black;" >Genre vraiment Forever</ h1 >
+< button id = "btn" onclick = "colour()" >Animer</ button >
+
+< script type = "text/javascript" >
+  function colour() {
+    setInterval(function() {
+      if (document.getElementById('ligne1').style.color == 'black')
+      var col1 = 'blue';
+      else
+      col1 = 'black';
+      if (document.getElementById('ligne2').style.color == 'black') {
+      let col2 = 'red';
+      } else {
+      col2 = 'black';
+      }
+      document.getElementById('ligne1').style.color = col1;
+      document.getElementById('ligne2').style.color = col2;
+    }, 500);
+  }
+</ script >
+
+</ body >
+</ html >
