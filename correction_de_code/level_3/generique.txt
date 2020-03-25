@@ -1,0 +1,22 @@
+Ecrire une fonction SommeCarrée qui prend comme paramètre un entier N compris entre 2 et 43 et qui renvoie en sortie une liste [1 .. N] de façon à ce que chaque somme d'entiers consécutifs de la liste soit un carré.
+
+Il faut que tous les entiers entre 1 et N soient utilisés dans la liste, et qu'ils le soient une seule fois. 
+
+Par exemple, avec N = 15, la solution serait :  
+
+[ 9, 7, 2, 14, 11, 5, 4, 12, 13, 3, 6, 10, 15, 1, 8 ]
+
+En effet, cette liste comprend tous les entiers entre 1 et 15 et si on ajoute les nombres deux à deux, ce sont tous des carrés :
+
+   16    16     16     16     16     16     16
+   /+\   /+\    /+\    /+\    /+\    /+\    /+\
+[ 9, 7, 2, 14, 11, 5, 4, 12, 13, 3, 6, 10, 15, 1, 8 ]
+      \+/    \+/    \+/    \+/    \+/    \+/    \+/
+       9     25      9     25      9     25      9
+
+9 = 3*3
+16 = 4*4
+25 = 5*5
+
+
+S'il n'exsite pas de solution au problème, la fonction devrait renvoyer un message d'erreur 
