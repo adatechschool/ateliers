@@ -1,0 +1,8 @@
+J'ai écrit le même bout de code en Python et en JS mais cela ne fonctionne pas comme je voudrais ! 
+
+J'ai créé une classe DingleMouse, et j'aimerais pouvoir appeler des fonctions pour lui donner un âge, un genre et un prénom, et qu'elle me renvoie une chaine de caractères sous la forme "Hello. My name is Alya. I am 33. I am female."
+
+Le truc, c'est que actuellement quand je l'appelle, si j'ai donné un âge et un genre mais pas un prénom, elle m'affiche "Hello. My name is . I am 33. I am female", c'est un peu ridicule, j'aimerais mieux qu'elle écrive juste "Hello. I am 33. I am female".
+
+J'aimerais aussi qu'elle mette les choses dans l'ordre que je lui ai donné : si j'ai d'abord renseigné l'âge, j'aimerais qu'elle commence par ça, si j'ai d'abord renseigné le prénom, qu'elle commence par le prénom, etc. Et j'aimerais pouvoir tenir compte de la dernière version, c'est à dire que si j'ai d'abord appelé la fonction en donnant "Laya" comme prénom puis en donnant "Alya", j'aimerais qu'elle garde juste Alya
+
