@@ -1,0 +1,5 @@
+J'ai essayé d'écrire une fonction qui reçoit en paramètre une phrase, et qui me renvoie en retour le nombre de caractères du mot le plus long de la phrase.
+
+Par exemple si j'appelle findLongest("J'en ai marre du confinement"), elle devrait me renvoyer 11, car le mot le plus long de la phrase est "confinement" et il est composé de 11 lettres.
+
+Mon code ne fonctionne pas actuellement et je ne sais pas pourquoi, comment le corriger ?
