@@ -19,8 +19,3 @@ Lancez votre terminal et taper "ssh -V" pour savoir si le client Open SSH est d√
  - Sous Mac OS : 
  
  Mac OS embarque nativement un client SSH, il suffit de lancer le terminal et utiliser la commande  ssh nomdutilisateur@adressedelamachine -p NUMERODUPORT
-
-
-
-
-CREATE TABLE customers (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255), address VARCHAR(255))
