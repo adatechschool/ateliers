@@ -21,40 +21,47 @@ escargot(array) = ['A','B','C','D','H','L','P','O','N','M','I','E','F','G','K','
 
 Les caractères sont lus dans cet ordre :
 
-``
+```
 ------>
+```
 
 puis
 
+```
 -------
       |
       |
       |
      \/
+```
 
 puis
 
+```
 ------
       |
       |
       |
 < ----
+```
 
 puis
 
+```
 ------
 ^     |
 |     |
 |     |
 ------
+```
 
 puis
 
+```
 ------
 ----> |
 |     |
 |     |
 ------
-
-et ainsi de suite
 ```
+et ainsi de suite
