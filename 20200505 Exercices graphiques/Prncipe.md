@@ -1,10 +1,10 @@
-#Environnement
+# Environnement
 
 Pour faciliter les exercices ci-dessous, nous vous proposons d'utiliser soit l'IDE fournie avec Processing si vous vous en servez déjà, soit l'éditeur en ligne de p5.js, disponible ici : https://editor.p5js.org/ si vous n'avez pas installé Processing chez vous.
 
 L'exercice se fera en Javascript
 
-## Niveau 1 :
+# Niveau 1 :
 
 En combinant des formes simples (rectangles, ellipses, etc.), dessinez une voiture à l'écran. Celle-ci doit pouvoir être dessinée à l'endroit de votre choix : par exemple, si votre fonction s'appelle "voiture", il faudrait que voiture(width/2, height/2) dessine la voiture au milieu de l'écran
 
@@ -17,7 +17,7 @@ Dessinez la voiture présentée au niveau 1 puis animez cette voiture de façon 
 Créez une interface qui permette de se dessiner un burger à la demande : en combinant des formes simples (rectangles, ellipses, etc.), dessinez un burger à l'écran (dans sa version la plus simple, il pourra s'agir de plusieurs rectangles de couleur différentes posés les uns sur les autres). Votre programme doit permettre de facilement demander un burger avec ou sans tel ou tel ingrédient : avec double steak, avec des tomates, sans fromage, etc.
 
 
-#StarWarsDay - L'API présentée ici https://swapi.dev/ permet de se récupérer de nombreuses infos concernant l'univers de Star Wars.
+> #StarWarsDay - L'API présentée ici https://swapi.dev/ permet de se récupérer de nombreuses infos concernant l'univers de Star Wars.
 
 # Niveau 4 :
 
