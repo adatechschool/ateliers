@@ -9,7 +9,8 @@
 
 ## Niveau 1 :
 
-En combinant des formes simples (rectangles, ellipses, etc.), dessinez une voiture à l'écran. Celle-ci doit pouvoir être dessinée à l'endroit de votre choix : par exemple, si votre fonction s'appelle "voiture", il faudrait que voiture(width/2, height/2) dessine la voiture au milieu de l'écran
+En combinant des formes simples (rectangles, ellipses, etc.), dessinez une voiture à l'écran. Celle-ci doit pouvoir être dessinée à l'endroit de votre choix : par exemple, si votre fonction s'appelle "voiture", il faudrait que voiture(width/2, height/2) dessine la voiture au milieu de l'écran.
+Variante #StarWarsDay : faire un vaisseau spatial à la place de la voiture :-)
 
 ## Niveau 2 :
 
