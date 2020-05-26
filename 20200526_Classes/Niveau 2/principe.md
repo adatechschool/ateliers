@@ -4,14 +4,14 @@ Vous disposez d'une classe "Animal" décrite ci-dessous : Créer les classes "Ch
 
 ```class Animal {
   constructor(nom, age, pattes, espece, status) {
-    this.name = name;
+    this.nom = nom;
     this.age = age;
-    this.legs = legs;
-    this.species = species;
+    this.pattes = pattes;
+    this.espece = espece;
     this.status = status;
   }
   sePresenter() {
-    return `Bonjour, mon nom est ${this.name} et j'ai  ${this.age} ans.`;
+    return `Bonjour, mon nom est ${this.nom} et j'ai  ${this.age} ans.`;
   }
 }
 ```
