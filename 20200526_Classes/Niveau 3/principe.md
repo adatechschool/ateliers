@@ -16,10 +16,13 @@ Coder la classe cuisinier avec les principes ci-dessous :
 
 - Tous les 10 niveaux, le cuisinier change de titre : des niveaux 1 à 9, il a le titre de "plongeur", de 10 à 19 "garde-manger", etc.
 
+```
 julien_cadiou = Cuisinier()
 julien_cadiou.niveau         # => 1
 julien_cadiou.experience    # => 100
 julien_cadiou.titre          # => "Commis"
+```
+
 
 ### Concours et expérience
 
@@ -35,11 +38,12 @@ julien_cadiou.titre          # => "Commis"
 
 - Chaque concours se conclut par l'affichage d'une phrase qui résume le concours : s'il y a 2 niveaux de différence ou plus entre vos cuisiniers, la phrase est "Une victoire facile", s'il y a un niveau entre les deux cuisiniers, la phrase est "Un beau concours", si les deux sont du même niveau, la phrase est "Un très beau concours".
 
+```
 julien_cadiou.experience    # => 100
 julien_cadiou.titre          # => "Commis"
 julien_cadiou.concours(1);     // => "Un très beau concours"
 julien_cadiou.experience    # => 110
-
+```
 
 ## Entrainement et services
 
@@ -49,9 +53,11 @@ julien_cadiou.experience    # => 110
 
 - Si le cuisinier n'a pas le niveau requis, on devrait lui renvoyer "Merci mais non merci"
 
+```
 philippe_conticini.service(["A lancé la patisserie des reves", 9000, 1]) # => "A lancé la patisserie des reves"
 philippe_conticini.experience    # => 9100
 philippe_conticini.level         # => 91
 philippe_conticini.titre          # => "Chef étoilé"
 philippe_conticini.experience    # => 9105
 philippe_conticini.CV    # => ["A lancé la patisserie des reves"]
+```
