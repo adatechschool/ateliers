@@ -2,7 +2,7 @@
 
 Vous disposez d'une classe "Animal" décrite ci-dessous : Créer les classes "Chien", "Chat", et "Poulpe" comme suit
 
-class Animal {
+```class Animal {
   constructor(nom, age, pattes, espece, status) {
     this.name = name;
     this.age = age;
@@ -14,6 +14,7 @@ class Animal {
     return `Bonjour, mon nom est ${this.name} et j'ai  ${this.age} ans.`;
   }
 }
+```
 
 - Définir une classe Poulpe grâce à la classe animal : un poulpe a toujours 8 "pattes", son espèce est égale à "poulpe"
 
