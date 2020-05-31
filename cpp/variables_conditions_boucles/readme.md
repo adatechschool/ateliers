@@ -3,7 +3,9 @@
 Voici quelques petits exercices dans lesquels piocher pour découvrir la syntaxe
 du langage C++ avec des notions communes.
 
-Si vous ne disposez pas d'une installation C++ fonctionnelle, vous pouvez utiuliser
+## Outils
+
+Si vous ne disposez pas d'une installation C++ fonctionnelle, vous pouvez utiliser
 des compilateurs en ligne existants tels que [OnlineGDB](https://www.onlinegdb.com/online_c++_compiler).
 
 ## Un petit `Hello World` pour commencer
@@ -17,7 +19,7 @@ Allez jeter un oeil à ces histoires [de gestion des flux](https://fr.wikibooks.
 ## Manipulation de quelques variables
 Essayez de créer des variables des types suivants:
 - un entier
-- un charactère
+- un caractère
 - un booléen
 - une chaine de caractères
 

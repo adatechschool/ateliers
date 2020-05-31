@@ -3,7 +3,9 @@
 L'objectif est ici de comprendre comment manipuler une grille (ou tableau multi-dimensionnel) dans le langage C++.
 Pour cet atelier, il y a besoin d'ouvrir un nouveau fichier compilable en C++.
 
-Si vous ne disposez pas d'une installation C++ fonctionnelle, vous pouvez utiuliser
+## Outils
+
+Si vous ne disposez pas d'une installation C++ fonctionnelle, vous pouvez utiliser
 des compilateurs en ligne existants tels que [OnlineGDB](https://www.onlinegdb.com/online_c++_compiler).
 
 ## Construction de la grille
