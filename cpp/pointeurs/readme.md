@@ -77,4 +77,4 @@ la valeur générée dans notre fonction.
 Que pensez-vous qu'il faille changer dans le prototype de la fonction pour que cela fonctionne ?
 Et dans le corps de la fonction ?
 
-
+PS: n'oubliez pas, vous pouvez vous aider de [pythontutor](http://pythontutor.com/visualize.html#mode=display) pour visualiser l'execution de votre code.
