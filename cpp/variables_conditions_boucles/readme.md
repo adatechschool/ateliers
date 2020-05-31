@@ -3,6 +3,9 @@
 Voici quelques petits exercices dans lesquels piocher pour découvrir la syntaxe
 du langage C++ avec des notions communes.
 
+Si vous ne disposez pas d'une installation C++ fonctionnelle, vous pouvez utiuliser
+des compilateurs en ligne existants tels que [OnlineGDB](https://www.onlinegdb.com/online_c++_compiler).
+
 ## Un petit `Hello World` pour commencer
 
 Créez vous un fichier qui soit interprétable par un compitaleur de C++.
