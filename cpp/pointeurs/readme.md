@@ -38,14 +38,15 @@ using namespace std;
 
 int main ()
 {
-  bool variable_1, variable_2;
-  bool * mon_pointeur;
+  char variable_1 = 'a';
+  char variable_2 = 'b';
+  char* mon_pointeur = nullptr;
 
   mon_pointeur = &variable_1;
-  *mon_pointeur = true;
+  *mon_pointeur = 'c';
 
   mon_pointeur = &variable_2;
-  *mon_pointeur = false;
+  *mon_pointeur = 'd';
 
   cout << "variable_1 a pour valeur " << variable_1 << '\n';
   cout << "variable_2 a pour valeur " << variable_2 << '\n';
