@@ -1,5 +1,7 @@
 # Les pointeurs
 
+Cet atelier peut aussi bien se faire en plénière dirigée par l'encadrante qu'en atelier.
+
 ## Outils
 
 Si vous ne disposez pas d'une installation C++ fonctionnelle, vous pouvez utiliser
@@ -24,4 +26,55 @@ L'adresse de `nombre_de_mots` est récupérable en utilisant l'opérateur `&`: `
 L'adresse de `nombre_de_mots` peut etre stockée dans un pointeur de type `Int*`.
 La valeur pointée par un pointeur peut etre obtenue en utilisant l'opérateur `*`: `*pointeur`.
 
-##
+## Mettons les mains dans le cambouis
+
+### Manipulons quelques variables
+
+Imaginons le code suivant:
+
+```
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+  bool variable_1, variable_2;
+  bool * mon_pointeur;
+
+  mon_pointeur = &variable_1;
+  *mon_pointeur = true;
+
+  mon_pointeur = &variable_2;
+  *mon_pointeur = false;
+
+  cout << "variable_1 a pour valeur " << variable_1 << '\n';
+  cout << "variable_2 a pour valeur " << variable_2 << '\n';
+
+  return 0;
+}
+```
+
+Utilisez ce code dans [pythontutor](http://pythontutor.com/visualize.html#mode=display) pour voir comment se déroule le programme et comment se comportent les variables conjointement avec le pointeur.
+
+### Manipulons des pointeurs dans une fonction
+
+#### Construction de la fonction
+
+Construisez une fonction qui permette de multiplier par 5 deux entiers passés en parametres. Puis affichez dans le `main` de votre fichier les deux nombres entiers qui ont été manipulés dans la fonction.
+
+En voici le [prototype](https://fr.wikibooks.org/wiki/Programmation_C%2B%2B/Les_fonctions#Prototype_d'une_fonction):
+```
+void multiplier_par_5(int premier_nombre, int second_nombre);
+```
+
+Que constatez-vous ?
+
+#### Mise en place des pointeurs
+
+Nous voudrions maintenant qu'à l'affichage des deux variables, celles ci aient
+la valeur générée dans notre fonction.
+
+Que pensez-vous qu'il faille changer dans le prototype de la fonction pour que cela fonctionne ?
+Et dans le corps de la fonction ?
+
+
