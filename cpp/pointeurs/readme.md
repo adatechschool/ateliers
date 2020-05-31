@@ -20,7 +20,7 @@ C'est l'index du premier octet utilisé dans la mémoire de l'ordinateur pour st
 
 L'adresse de la variable `nombre_de_mots` peut etre utilisée pour référencer notre variable dans du code.
 
-Une variable représentant un pointeur de `nombre_de_mots` va stocker l'adresse de `nombre_de_mots`.
+Une variable représentant un pointeur sur `nombre_de_mots` va stocker l'adresse de `nombre_de_mots`.
 
 L'adresse de `nombre_de_mots` est récupérable en utilisant l'opérateur `&`: `&nombre_de_mots`.
 L'adresse de `nombre_de_mots` peut etre stockée dans un pointeur de type `Int*`.
