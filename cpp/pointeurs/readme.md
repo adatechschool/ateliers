@@ -61,7 +61,7 @@ Utilisez ce code dans [pythontutor](http://pythontutor.com/visualize.html#mode=d
 
 #### Construction de la fonction
 
-Construisez une fonction qui permette de multiplier par 5 deux entiers passés en parametres. Puis affichez dans le `main` de votre fichier les deux nombres entiers qui ont été manipulés dans la fonction.
+Construisez une fonction prenant deux entiers en paramètres et qui multiplie chacun de ces paramètres par 5. Puis affichez dans le `main` de votre fichier les deux nombres entiers qui ont été passés en paramètres à la fonction.
 
 En voici le [prototype](https://fr.wikibooks.org/wiki/Programmation_C%2B%2B/Les_fonctions#Prototype_d'une_fonction):
 ```
