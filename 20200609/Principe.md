@@ -16,13 +16,16 @@ Sachant que j'ai une liste de composants à acheter, pouvez-vous écrire une fon
 Exemples
 
 ```etiquettes = [5,7,2,1,4]
-liste = ["resistance","condensateur","ecran"]```
+liste = ["resistance","condensateur","ecran"]
+```
 
 --> votre fonction devrait retourner/afficher "Dans le pire des cas tu paies 16 euros et dans le meilleur des cas 7 euros"
 (explications : 5+7+4 = 16 et 2+1+4=7)
 
-``` etiquettes = [5,7,2,1,4]
-liste = ["microcontroleur","bobine de fil","DEL","bobine de fil"]```
+``` 
+etiquettes = [5,7,2,1,4]
+liste = ["microcontroleur","bobine de fil","DEL","bobine de fil"]
+```
 
 --> votre fonction devrait retourner/afficher "Dans le pire des cas tu paies 23 euros et dans le meilleur des cas 8 euros"
 (explications : 5+7+4+7 = 23 et 2+1+4+1=8)
@@ -41,14 +44,16 @@ Coup de chance pour moi, les tickets sont restés longtemps stockés pendant le 
 Sachant que je n'achète mes tickets que par 6, et en supposant qu'il y a maximum un caractère découvert par mot, sauriez-vous me dire quel est le montant maximum que je peux gagner si je vous montre mes tickets ?
 
 Exemples :
-```tickets = [
+```
+tickets = [
 "t#### #i### ####r 1##",
 "r##### d##### ###### ####0",
 "### ane ### ###0",
 "### ### ### 1#",
 "####e #####y r## ###0",
 "r##### r## r## ###"
-]```
+]
+```
 
 --> votre fonction devrait retourner "5110"
 
