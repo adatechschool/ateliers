@@ -4,7 +4,8 @@
 Je sors de chez moi et je me balade dans la rue. Il y a encore les affiches des élections municipales, mais celles-ci se sont bien usées depuis : sur certaines, le texte s'est tellement effacé que je crois lire des 5 à la place des S, des 0 à la place des O et des 1 à la place des I. Pourriez-vous m'écrire une fonction à qui je donne une chaîne de caractères que je crois lire et qui me renvoie la version corrigée ? Comme les politiciens ne s'engagent pas sur les résultats, vous pouvez être sûr(e) qu'il n'y avait aucun chiffre dans le texte de base :-)
 
 Exemples
-texte_soumis = "PAR15" --> votre fonction devrait retourner "PARIS"
+```texte_soumis = "PAR15"```
+--> votre fonction devrait retourner "PARIS"
 
 ## Niveau 2
 Je continue ma sortie et je me rends au centre commercial : j'ai besoin d'acheter des composants électroniques. D'habitude, c'est assez simple : le stock de produits sont sur des étagères, et devant chaque produit, une étiquette électronique comme celle-ci indique son prix (comme au supermarché) : https://ixtenso.com/media/story/14774/content-1349010811_hires.jpg.
@@ -14,14 +15,16 @@ Sachant que j'ai une liste de composants à acheter, pouvez-vous écrire une fon
 
 Exemples
 
-etiquettes = [5,7,2,1,4]
-liste = ["resistance","condensateur","ecran"]
---> votre fonction devrait retourner afficher "Dans le pire des cas tu paies 16 euros et dans le meilleur des cas 7 euros"
+```etiquettes = [5,7,2,1,4]
+liste = ["resistance","condensateur","ecran"]```
+
+--> votre fonction devrait retourner/afficher "Dans le pire des cas tu paies 16 euros et dans le meilleur des cas 7 euros"
 (explications : 5+7+4 = 16 et 2+1+4=7)
 
-etiquettes = [5,7,2,1,4]
-liste = ["microcontroleur","bobine de fil","DEL","bobine de fil"]
---> votre fonction devrait retourner afficher "Dans le pire des cas tu paies 23 euros et dans le meilleur des cas 8 euros"
+``` etiquettes = [5,7,2,1,4]
+liste = ["microcontroleur","bobine de fil","DEL","bobine de fil"]```
+
+--> votre fonction devrait retourner/afficher "Dans le pire des cas tu paies 23 euros et dans le meilleur des cas 8 euros"
 (explications : 5+7+4+7 = 23 et 2+1+4+1=8)
 
 
@@ -38,14 +41,15 @@ Coup de chance pour moi, les tickets sont restés longtemps stockés pendant le 
 Sachant que je n'achète mes tickets que par 6, et en supposant qu'il y a maximum un caractère découvert par mot, sauriez-vous me dire quel est le montant maximum que je peux gagner si je vous montre mes tickets ?
 
 Exemples :
-``tickets = [
+```tickets = [
 "t#### #i### ####r 1##",
 "r##### d##### ###### ####0",
 "### ane ### ###0",
 "### ### ### 1#",
 "####e #####y r## ###0",
 "r##### r## r## ###"
-]``
+]```
+
 --> votre fonction devrait retourner "5110"
 
 Explications:
