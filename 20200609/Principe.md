@@ -15,7 +15,8 @@ Sachant que j'ai une liste de composants à acheter, pouvez-vous écrire une fon
 
 Exemples
 
-```etiquettes = [5,7,2,1,4]
+```
+etiquettes = [5,7,2,1,4]
 liste = ["resistance","condensateur","ecran"]
 ```
 
