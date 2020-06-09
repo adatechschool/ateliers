@@ -35,7 +35,8 @@ liste = ["microcontroleur","bobine de fil","DEL","bobine de fil"]
 
 Je décide cette fois-ci d'aller au tabac acheter un jeu à gratter. Le jeu est assez simple, il y a 4 zones à gratter sur chaque ticket : les trois premières zones sont des noms d'animaux, et la dernière est un montant. Si les trois noms d'animaux sont les mêmes, alors on gagne le montant indiqué. Par exemple, "lion lion lion 100" me fait gagner 100 euros.
 
-Les gains possibles sont 5, 10, 20, 50, 100, 200, 500, 1000, 2000, 5000 et 10000 euros
+Les gains possibles sont 5, 10, 20, 50, 100, 200, 500, 1000, 2000, 5000 et 10000 euros.
+
 Les animaux possibles sont "ane", "baleine", "caribou", "chat", "cheval", "chien", "coq", "daim", "lapin", "lion", "loutre", "rat", "tigre".
 
 
@@ -59,10 +60,12 @@ tickets = [
 
 Explications:
 
+```
 "t#### #i### ####r 1##" --> pourrait me faire gagner 100 euros si c'est tiger tiger tiger
 "r##### d##### ###### ####0" --> perdant
 "### ane ### ###0" --> pourrait me faire gagner jusqu'à 5000 euros si c'est ane ane ane
 "### ### ### 10" --> pourrait me faire gagner 10 euros
 "####e #####y r## ###0" --> perdant
 "r##### r## r## ###" --> perdant
+```
 Je peux donc gagner jusqu'à 100+5000+10= 5110 euros
