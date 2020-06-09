@@ -35,8 +35,8 @@ liste = ["microcontroleur","bobine de fil","DEL","bobine de fil"]
 
 Je décide cette fois-ci d'aller au tabac acheter un jeu à gratter. Le jeu est assez simple, il y a 4 zones à gratter sur chaque ticket : les trois premières zones sont des noms d'animaux, et la dernière est un montant. Si les trois noms d'animaux sont les mêmes, alors on gagne le montant indiqué. Par exemple, "lion lion lion 100" me fait gagner 100 euros.
 
-Les gains possibles sont 5,10,20,50,100,200,500,1000,2000,5000,10000 euros
-Les animaux possibles sont "ane","baleine","caribou","chat","cheval","chien","coq","daim","lapin","lion","loutre","rat","tigre"
+Les gains possibles sont 5, 10, 20, 50, 100, 200, 500, 1000, 2000, 5000 et 10000 euros
+Les animaux possibles sont "ane", "baleine", "caribou", "chat", "cheval", "chien", "coq", "daim", "lapin", "lion", "loutre", "rat", "tigre".
 
 
 Coup de chance pour moi, les tickets sont restés longtemps stockés pendant le confinement, et la partie à gratter s'est un peu enlevée par endroits : si on se dit que le caractère # représente la zone à gratter, on a par exemple : ##o# #### #i## ##0.
