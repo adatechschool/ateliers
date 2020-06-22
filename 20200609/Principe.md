@@ -13,6 +13,8 @@ Malheureusement, quand j'arrive au magasin, les étiquettes de prix ne sont pas 
 
 Sachant que j'ai une liste de composants à acheter, pouvez-vous écrire une fonction qui calcule le prix le plus haut et le prix le plus bas que je vais payer ? Vous recevrez en entrée la liste des prix sur les étiquettes + ma liste d'achats.
 
+Dans ce niveau, la liste d'achats ne peut pas comporter de doublon.
+
 Exemples
 
 ```
@@ -22,6 +24,10 @@ liste = ["resistance","condensateur","ecran"]
 
 --> votre fonction devrait retourner/afficher "Dans le pire des cas tu paies 16 euros et dans le meilleur des cas 7 euros"
 (explications : 5+7+4 = 16 et 2+1+4=7)
+
+## Niveau 2bis
+
+Cette fois, la liste d'achats peut comporter des doublons. Exemple :
 
 ``` 
 etiquettes = [5,7,2,1,4]
