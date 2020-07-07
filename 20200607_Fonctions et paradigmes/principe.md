@@ -1,3 +1,5 @@
+##Langage : Javascript
+
 #Niveau 1
 
 Ecrire les fonctions nécéssaires pour que le code suivant s'éxécute et donne le résultat donné :
