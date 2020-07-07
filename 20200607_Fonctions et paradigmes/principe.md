@@ -10,4 +10,4 @@ Ecrire les fonctions nécéssaires pour que le code suivant s'éxécute et donne
 
 Faire le niveau 1 et écrire les fonctions de façons à ce que ce code donne le résultat attendu :
 
-``` Le(nom(du(lapin(est(aussi(Hana()))))))); // doit afficher "Le nom du lapin est aussi Hana" 
+``` Le(nom(du(lapin(est(aussi(Hana()))))))); // doit afficher "Le nom du lapin est aussi Hana" ```
