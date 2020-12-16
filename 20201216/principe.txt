@@ -96,18 +96,18 @@ sapin(7) affiche à l'écran :
      ##
      ##
 
-- Niveau 4 - même principe que le niveau 3 mais avec des décorations (o et +) ajoutées aléatoirement, de façon à ne jamais être totalement sur le bord du sapin
+- Niveau 4 - même principe que le niveau 3 mais avec des décorations (o et +) ajoutées aléatoirement (vous choisissez la fréquence), de façon à ne jamais être totalement sur le bord du sapin
 
 sapin(1) affiche à l'écran :
   +
  /*\
-/***\
+/*o*\
   #
 sapin(2) affiche à l'écran :
    + 
   /*\
- /***\
-/*****\
+ /*o*\
+/*o***\
    #  
 
 sapin(5) affiche à l'écran :
