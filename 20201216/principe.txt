@@ -1,0 +1,139 @@
+Ecrivez une fonction "sapin" dans le langage de votre choix, qui prend en entrée un nombre entier et qui affiche un sapin, avec la logique suivante :
+
+- Niveau 1
+
+sapin(1) affiche à l'écran :
+  +
+ /*\
+/***\
+
+sapin(2) affiche à l'écran :
+
+   +
+  /*\
+ /***\
+/*****\
+
+sapin(5) affiche à l'écran :
+      + 
+     /*\
+    /***\
+   /*****\
+  /*******\
+ /*********\
+/***********\
+
+
+- Niveau 2
+
+sapin(1) affiche à l'écran :
+  +
+ /*\
+/***\
+
+sapin(2) affiche à l'écran :
+   + 
+  /*\
+ /***\
+/*****\
+
+sapin(5) affiche à l'écran :
+      + 
+     /*\
+    /***\
+   /*****\
+   /*****\
+  /*******\
+ /*********\
+ 
+sapin(7) affiche à l'écran :
+      + 
+     /*\
+    /***\
+   /*****\
+   /*****\
+  /*******\
+ /*********\
+  /*******\
+ /*********\
+ 
+ - Niveau 3
+
+sapin(1) affiche à l'écran :
+  +
+ /*\
+/***\
+  #
+sapin(2) affiche à l'écran :
+   + 
+  /*\
+ /***\
+/*****\
+   #  
+
+sapin(5) affiche à l'écran :
+      + 
+     /*\
+    /***\
+   /*****\
+   /*****\
+  /*******\
+ /*********\
+     ##
+     ##
+ 
+sapin(7) affiche à l'écran :
+      + 
+     /*\
+    /***\
+   /*****\
+   /*****\
+  /*******\
+ /*********\
+  /*******\
+ /*********\
+     ##
+     ##
+     ##
+
+- Niveau 4 - même principe que le niveau 3 mais avec des décorations (o) ajoutées aléatoirement, de façon à ne jamais être totalement sur le bord du sapin
+
+sapin(1) affiche à l'écran :
+  +
+ /*\
+/***\
+  #
+sapin(2) affiche à l'écran :
+   + 
+  /*\
+ /***\
+/*****\
+   #  
+
+sapin(5) affiche à l'écran :
+      + 
+     /*\
+    /***\
+   /***o*\
+   /*****\
+  /*o*****\
+ /******o**\
+     ##
+     ##
+ 
+sapin(7) affiche à l'écran :
+      + 
+     /*\
+    /*o*\
+   /*****\
+   /*o***\
+  /*******\
+ /******o**\
+  /*******\
+ /**o******\
+     ##
+     ##
+     ##
+ 
+ 
+
