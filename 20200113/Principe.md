@@ -12,6 +12,6 @@ Dans le langage de votre choix, lire et charger le fichier de données dans un p
 ## Niveaux 2 et suivants 
 Parcourir et analyser les données : faire le niveau 1 puis écrire des fonctions qui permettent d'afficher les informations suivantes : 
 
-Niveau 2 :  combien y’a-t-il de pokemon dans les données ? quels sont ceux dont le poids est supérieur à 10 kg ?
-Niveau 3 :  les classer par ordre croissant de poids et afficher le résultat
-Niveau 4 :  pour un Pokemon donné en argument à votre fonction, afficher toutes les évolutions possibles de Pokemon (exemple : Bulbasaur -> Ivysaur -> Venusaur)
+### Niveau 2 :  combien y’a-t-il de pokemon dans les données ? quels sont ceux dont le poids est supérieur à 10 kg ?
+### Niveau 3 :  les classer par ordre croissant de poids et afficher le résultat
+### Niveau 4 :  pour un Pokemon donné en argument à votre fonction, afficher toutes les évolutions possibles de Pokemon (exemple : Bulbasaur -> Ivysaur -> Venusaur)
