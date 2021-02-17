@@ -29,4 +29,4 @@ Se connecter à l'API Star Wars décrite juste au dessus et récupérer une list
 
 ## Niveau 5 :
 
-Se connecter à l'API Star Wars décrite juste au dessus et récupérer une liste de 10 planètes : pour chacune d'entre elles, dessiner la planète à l'écran en tenant compte de ses caractéristiques reçues via l'API (type de climat, type de terrain) et faire s'animer l'ensemble des planètes en fonction de ces mêmes données (période de rotation)
+Se connecter à l'API Star Wars décrite juste au dessus et récupérer une liste de 20 planètes : pour chacune d'entre elles, dessiner la planète à l'écran en tenant compte de ses caractéristiques reçues via l'API (type de climat, type de terrain) et faire s'animer l'ensemble des planètes en fonction de ces mêmes données (période de rotation)
