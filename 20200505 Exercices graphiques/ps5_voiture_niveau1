@@ -1,0 +1,26 @@
+let x, y;
+
+function setup() {
+  createCanvas(500, 500);
+  background(220);
+  
+  x = width / 2;
+  y = height / 2;
+}
+
+
+function draw() {
+  background(220);
+  
+  let c1 = color('magenta');
+  fill(c1);
+  arc(x, y, 150, 150, -PI, 0, CHORD)
+  let c2 = color(50, 55, 100);
+  fill(c2);
+  rect(x-75, y, 150, 75)
+  let c3 = color(255, 204, 0);
+  fill(c3);
+  ellipse(x+40, y+75, 45, 45);
+  ellipse(x-40, y+75, 45, 45);
+  
+}
