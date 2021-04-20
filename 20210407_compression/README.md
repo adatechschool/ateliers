@@ -68,7 +68,7 @@ Nous utiliserons le dictionnaire suivant :
  'avec': '12'}
 ```
 
-Créez une fonction `C` prennant en paramètre une liste de mot et un dictionnaire.
+Créez une fonction `C` prennant en paramètre une liste de mots et un dictionnaire.
 
 Pour chaque mot dans la liste, si le mot existe dans le dictionnaire en tant que clef, remplacez-le par la valeur associée.
 
@@ -80,7 +80,7 @@ Vous pouvez maintenant enchaîner vos fonctions `A`, `C` et `B` pour produire un
 - `C` remplace certains de ces mots par les références du dictionnaire,
 - `B` récupère la liste de mots et reconstruit un texte complet.
 
-Vous venez de compressez le texte !
+Vous venez de compresser le texte !
 
 
 ## Étape 3 - Décompression
