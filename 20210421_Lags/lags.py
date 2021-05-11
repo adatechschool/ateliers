@@ -1,4 +1,4 @@
-#/usr/bin/env python3
+#!/usr/bin/env python3
 
 # This code is a possible implementation of the lag problem.
 #
