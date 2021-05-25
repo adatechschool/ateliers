@@ -29,7 +29,9 @@ Vous devriez récolter 4260 résultats.
 
 - les 10 villes les plus peuplées en 2012
 
-Le résultat doit s'apparenter à ce tableau : <img width="329" alt="Screenshot 2021-05-25 at 18 57 41" src="https://user-images.githubusercontent.com/98240/119538208-2abc0100-bd8b-11eb-8d50-48eb2537a569.png">
+Le résultat doit s'apparenter à ce tableau : 
+
+<img width="329" alt="Screenshot 2021-05-25 at 18 57 41" src="https://user-images.githubusercontent.com/98240/119538208-2abc0100-bd8b-11eb-8d50-48eb2537a569.png">
 
 ## Level 4
 
