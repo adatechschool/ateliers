@@ -1,0 +1,2 @@
+# Exercice individuel : SQL basics
+
