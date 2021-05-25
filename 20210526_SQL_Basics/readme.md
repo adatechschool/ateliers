@@ -35,4 +35,17 @@ Le résultat doit s'apparenter à ce tableau :
 
 ## Level 4
 
+Écrivez une requête SQL permettant de récupérer :
+
+- le nombre de villes rattachées à un département
+- avec les départements ayant le moins de villes en premier
+- dans la limite de 20
+
+Le résultat doit s'apparenter à ce tableau : 
+
+<img width="235" alt="Screenshot 2021-05-25 at 19 07 24" src="https://user-images.githubusercontent.com/98240/119539452-7c18c000-bd8c-11eb-9232-56bce2fbfc5e.png">
+
+
 ## Level 5
+
+
