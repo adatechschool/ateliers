@@ -48,4 +48,7 @@ Le résultat doit s'apparenter à ce tableau :
 
 ## Level 5
 
+Écrivez une requête SQL permettant de :
+
+- ajouter 3 millions dhabitants à la ville de votre choix pour l'annnée 2012
 
