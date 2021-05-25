@@ -10,11 +10,26 @@
 
 ## Level 1
 
+Écrivez une requête SQL permettant de récupérer :
 
+- la liste des villes dont le nom commence par "Saint".
+
+Vous devriez récolter 4260 résultats.
 
 ## Level 2
 
+Écrivez une requête SQL permettant de récupérer : 
+
+- uniquement les champs "ville_nom_simple", "ville_population_2012", "ville_code_postal", "ville_surface"
+- dans la limite des 10 premières entrées
+
 ## Level 3
+
+Écrivez une requête SQL permettant de récupérer :
+
+- les 10 villes les plus peuplées en 2012
+
+Le résultat doit s'apparenter à ce tableau : <img width="329" alt="Screenshot 2021-05-25 at 18 57 41" src="https://user-images.githubusercontent.com/98240/119538208-2abc0100-bd8b-11eb-8d50-48eb2537a569.png">
 
 ## Level 4
 
