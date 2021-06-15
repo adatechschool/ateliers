@@ -1,0 +1,57 @@
+{
+  "students": [
+    
+     {
+        "id": 1,
+        "name": "Lara",
+        "lastname": "Price",
+        "spe" : [
+            "Maths",
+            "Physique"
+        ],
+        "grade" : {
+            "average" : 14,
+            "comments" : "Great semester"
+        }
+     },
+     {
+        "id": 2,
+        "name": "Nick",
+        "lastname": "Thameson",
+        "spe" : [
+            "French"
+        ],
+        "grade" : {
+            "average" : 9,
+            "comments" : "Can do better"
+        }
+     },
+     {
+        "id": 3,
+        "name": "Himen",
+        "lastname": "Benhoura",
+        "spe" : [
+            "Art",
+            "History"
+        ],
+        "grade" : {
+            "average" : 12,
+            "comments" : "Keep going"
+        }
+     },
+     {
+        "id": 4,
+        "name": "Barbara",
+        "lastname": "Chase"
+     },
+     {
+        "id": 5,
+        "name": "Bella",
+        "lastname": "Guerrin",
+        "spe" : [
+            "IT"
+        ]
+     }
+  ]
+}
+
