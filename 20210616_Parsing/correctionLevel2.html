@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>What's in my JSON file</title>
+  </head>
+  <body>
+  <input type="file" name="inputfile" id="inputfile">
+  <br>
+  <br>
+    <script type="text/javascript">
+        document.getElementById('inputfile')
+            .addEventListener('change', function() {
+            var fr=new FileReader();
+            fr.onload=function(){
+                let json = JSON.parse(fr.result);
+                console.log(json)
+                  displayMyJson(json)
+            }
+
+            fr.readAsText(this.files[0]);
+        })
+
+        function displayMyJson(json) {
+          for(var key in json) {
+            if (json[key] instanceof Object) {
+              displayMyJson(json[key])
+            }
+            else {
+              document.write(key + " = " + json[key])
+              document.write('<br/>')
+            }
+          }
+        }
+
+    </script>
+  </body>
+</html>
