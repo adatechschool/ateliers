@@ -1,9 +1,9 @@
 import random
 
-def placeRandomBombe(k, n, m):
-    for i in range(k):
-        x = random.randint(0,n-1)
-        y = random.randint(0,m-1)
+def placeRandomBombe(nbBombs, nbColumns, nbLines):
+    for i in range(nbBombs):
+        x = random.randint(0,nbColumns-1)
+        y = random.randint(0,nbLines-1)
         grid[y][x] = 'X'
 
 def gridGenerator(n, m, char):
