@@ -35,7 +35,7 @@ Pour déterminer si un nombre est premier, nous allons implémenter l'algorithme
 détection suivante :
 
 1. soit un entier ``N``,
-2. pour chaque entier ``k`` inférieur à ``N`` :
+2. pour chaque entier ``k`` strictement supérieur à ``1`` et strictement inférieur à ``N`` :
 
   - soit ``N`` est divisible par ``k``, dans ce cas on a notre réponse : **``N``
     n'est pas un nombre premier**,
