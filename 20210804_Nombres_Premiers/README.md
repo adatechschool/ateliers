@@ -47,8 +47,9 @@ détection suivante :
 
 En utilisant la fonction codée lors de l'étape 1, développez une fonction
 prenant en argument un entier à tester, et qui essaie de le diviser par tous
-les entiers inférieurs à lui, et qui retourne si oui (il n'est pas premier) on
-non (il est premier) il est divisible par un de ces entiers.
+les entiers inférieurs à lui, et qui retourne si oui (il n'est divisble par
+aucun des entiers) ou non (il est divisible par au moins un des entiers) il est
+premier.
 
 Vous avez maintenant un code qui vous permet de vérifier si un entier est
 premier ou non.
