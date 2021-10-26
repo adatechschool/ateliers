@@ -6,16 +6,16 @@ Je ne pense pas avoir besoin d'expliquer les régles en détail, mais bon petit 
 Deux joueurs posent tour à tour un rond, pour l’un, une croix, pour l’autre, dans une grille de 3 cases par 3. Le but du jeu est d’obtenir un alignement (en ligne, colonne ou diagonale) de ses trois signes. 
 
 
-Tous les jeux ne sont pas forcement à faire. Le but est de travailler un ou des langages que vous ne connaissez pas pour vous y familiariser.
+Tous les niveaux ne sont pas forcement à faire. Le but est de travailler un langage que vous ne connaissez pas pour vous y familiariser.
 
 ## 1
-Un langage que vous utilisez peu mais très interessant car l'origine d'un grand nombre de langages, le C !
+Un langage que vous connaissez deja ? JavaScript ? Python ?
 
 ## 2
-Pour celles sur Mac, en Swift ! Un playground sur XCode peut suffir. Vous pouvez même faire une interface graphique avec UIKit et des contraintes avec Auto layout ;). 
+Un langage que vous utilisez peu mais très interessant car l'origine d'un grand nombre de langages, le C !
 
 ## 3
-Et pourquoi pas ce jeu faire en Kotlin ?
+En Swift ! Un playground sur XCode pour celles sur Mac ou un online plyaground peut suffir. Vous pouvez même faire une interface graphique facilement sur XCode avec SwiftUI ;). 
 
 
 ### Étapes :
