@@ -17,9 +17,9 @@ Afficher le cadrant de la calculatrice, qui affichera le chiffre sélectionné p
 Hints:
 
 ```javascript
-<button onclick="myFunction()">Click me</button>
+<button id="1" onclick="button1clicked()">1</button>
 var cadrant = document.getElementById("cadrant");
-cadrant.text = "chiffre choisi"
+cadrant.text += "1"
 ```
 
 ### STEP 3
