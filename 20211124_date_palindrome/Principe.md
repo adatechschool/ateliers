@@ -1,6 +1,7 @@
 Pour cet exercice, le choix du langage est libre. Il va s'agir de manipuler des chaines de caractères représentant des dates.
 ### Niveau 1:
 Créer une fonction `isValidDate` qui prend en paramètre une date en string et determine si elle est valide.
+Pour qu'une date soit valide, il faut qu'elle existe et qu'elle soit au format dd/mm/aaaa.
 
 ### Niveau 2:
 Créer une fonction `isPalindrome` qui prend une date en string en paramètre et retourne un booleen qui indique si la date est un palindrome. Si la date est invalide, retourner false. (Exemple de dates palindromes = qui se lit dans les deux sens)
