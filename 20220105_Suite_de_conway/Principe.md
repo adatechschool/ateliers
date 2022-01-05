@@ -5,9 +5,9 @@ Pour cet exercice, le choix du langage est libre.
 L'exercice consiste à "décrire" des chaînes de caractères selon le principe suivant :
 
 <ul>
-<li>Prenons la chaîne de caractères "a". Celle-ci est composée d'une (__1__) occurrence du caractère '__a__'. Nous pouvons donc décrire la chaîne "a" par la chaîne "__1a__".
-<li>Prenons désormais la nouvelle chaîne "1a". Celle-ci est composée d'un (__1__) caractère '__1__' puis d'un (__1__) caractère '__a__'. Nous pouvons donc la décrire par "__111a__".
-<li>De même, la chaîne "111a" est composée de __3__ caractères consécutifs '__1__' puis d'un (__1__) caractère '__a__'. Nous pouvons donc la décrire comme "__311a__"
+<li>Prenons la chaîne de caractères "a". Celle-ci est composée d'une (1) occurrence du caractère 'a'. Nous pouvons donc décrire la chaîne "a" par la chaîne "1a".
+<li>Prenons désormais la nouvelle chaîne "1a". Celle-ci est composée d'un (1) caractère '1' puis d'un (1) caractère 'a'. Nous pouvons donc la décrire par "111a".
+<li>De même, la chaîne "111a" est composée de 3 caractères consécutifs '1' puis d'un (1) caractère 'a'. Nous pouvons donc la décrire comme "311a"
 <li>et ainsi de suite...
 </ul>
 
