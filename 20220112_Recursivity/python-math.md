@@ -1,6 +1,6 @@
 # Introduction
 
-The purpose of these exercices is to provide a quick introduction with recursive function. You'll rarely use this type of function in your future position, but recruiters evaluate this type of exercise a lot during job interviews for junior positions. 
+The purpose of these exercises is to provide a quick introduction with recursive function. You'll rarely use this type of function in your future position, but recruiters evaluate this type of exercise a lot during job interviews for junior positions. 
 
 # Guide for writing recursive function
 
