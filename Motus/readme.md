@@ -23,7 +23,9 @@ Ajoutez la fonctionnalité manquante.
 
 Écrivez des tests.
 
-## HTML
+
+## Annexes :
+### HTML
 ```
 <!DOCTYPE html>
 <html>
@@ -44,7 +46,7 @@ Ajoutez la fonctionnalité manquante.
 ```
 
 
-## JS
+### JS
 ```
 function tryWord(word, base) {
 	// TODO: fix jeu sensible à la casse.
